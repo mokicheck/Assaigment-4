@@ -1,6 +1,8 @@
+// Concrete Products (Конкретные продукты) - Represent specific character types
 class Warrior implements Character {
     @Override
     public String getCharacterType() {
+        // Return a string indicating that this is a Warrior character
         return "Warrior";
     }
 }
@@ -8,6 +10,7 @@ class Warrior implements Character {
 class Mage implements Character {
     @Override
     public String getCharacterType() {
+        // Return a string indicating that this is a Mage character
         return "Mage";
     }
 }
@@ -15,6 +18,7 @@ class Mage implements Character {
 class Archer implements Character {
     @Override
     public String getCharacterType() {
+        // Return a string indicating that this is an Archer character
         return "Archer";
     }
 }
